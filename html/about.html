@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University </title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/fontawesome.min.css">
+<link rel="stylesheet" href="../css/regular.min.css">
+<link rel="stylesheet" href="../css/solid.min.css">
+<link rel="stylesheet" href="../css/brands.min.css">
+</head>
+<body>
+    <!--Start Header-->
+    <header class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times " onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars " onclick="showMenu()"></i>
+        </nav>
+        <div class="university-intro">
+           <h1>About Us</h1>
+        </div>
+    </header>
+    <!--End Header-->
+    <!--Satrt About me--> 
+    <div class="about-me">
+        <div class="row">
+            <div class="about-col">
+                <h2>We Are The World's Largest University</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aspernatur nam dolorum dolores doloremque, quaerat architecto expedita, laudantium voluptate id itaque voluptatibus repellendus reiciendis sunt cumque perferendis in modi praesentium ipsum inventore voluptatum accusantium velit. Aliquam ut veritatis. </p>
+                <a href="#" class="main-btn">Explore More</a>
+            </div>
+            <div class="about-col">
+                <img src="../images/about.jpg" alt="about">
+            </div>
+        </div>
+    </div>
+   
+    <!--End About Me-->
+    <!--Start Footer-->
+    <footer>
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quisquam voluptatem quis <br>expedita error unde incidunt. Adipisci, consequuntur accusantium! Modi reprehenderit</p>
+        <div class="icons">
+            <i class="fab fa-facebook fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
+            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-linkedin fa-2x"></i>
+        </div>
+            <p>Made With <i class="far fa-heart fa-2x"></i> by Easy Tutorials  </p>
+    </footer>
+    <!--End Footer-->
+    <script>
+    
+            var navLinks=document.getElementById('navLinks');
+                function showMenu()
+                {
+                    navLinks.style.right="0";
+
+                }
+                function hideMenu()
+                {
+                    navLinks.style.right="-50%";
+
+                }
+        
+    </script>
+</body>
+</html>

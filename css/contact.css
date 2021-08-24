@@ -1,0 +1,76 @@
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    width:100%;
+    height:450px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none;
+    width:100%;
+    height:100%;
+}
+.gmap_iframe {
+    width:100%;
+    height:100%;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.contact-us .row {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-us .row  .contact-col{
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 48%;
+}
+.contact-us .row  .contact-col div{
+    display: flex;
+    margin-bottom: 30px;
+}
+.contact-us .row  .contact-col div h3{
+    color:#777575
+
+}
+.contact-us .row  .contact-col div span{
+    color: #a29f9f;
+}
+
+
+.contact-us  .contact-col div .fas,
+.contact-us   .contact-col div .far{
+
+    color: var(--main-color);
+    margin: 10px 20px;  
+}
+.contact-us .contact-col .contact-form input,textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    outline: none;
+}
+.contact-us .contact-col .contact-form button{
+    color: #222;
+    border: 1px solid var(--main-color);
+}
+.contact-us .contact-col .contact-form button:hover{
+    color: #fff;
+
+}
+@media (max-width:700px)
+{
+    .contact-us .row .contact-col div h3{
+        font-size: 14px;
+    }
+}

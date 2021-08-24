@@ -1,0 +1,51 @@
+.sub-header{
+    background: linear-gradient(rgba(4,6,30,.7),rgba(4,9,30,.7)),url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+.sub-header .university-intro
+{
+    top: 30%;
+}
+
+.about-me{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0 50px ;
+}
+.about-me .row{
+    display: flex;
+    justify-content: space-between;
+}
+.about-me .row .about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+
+}
+.about-col h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.about-col p{
+    line-height: 1.7;
+    padding: 15px 0 25px;
+    font-size: 14px;
+}
+.about-me .about-col .main-btn{
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+
+}
+.about-me .about-col .main-btn:hover{
+    color: #fff;
+}
+.about-me .about-col img{
+    max-width: 100%;
+}
+@media (max-width:700px)
+{
+    .about-me .about-col h2{
+        font-size: 20px;
+    }
+}
